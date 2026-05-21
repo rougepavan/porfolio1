@@ -65,7 +65,9 @@ export default function Navbar() {
         </ul>
 
         <motion.a
-          href="#"
+          href="https://docs.google.com/document/d/12Yqjwx4WRWU_asMPo32xirQrOaRQ4sNC/edit?usp=sharing&ouid=105654684266660874542&rtpof=true&sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden relative lg:inline-block px-4 py-2 font-medium group"
         >
           <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
@@ -113,7 +115,9 @@ export default function Navbar() {
                 </motion.li>
               ))}
               <motion.a
-                href="#"
+                href="https://docs.google.com/document/d/12Yqjwx4WRWU_asMPo32xirQrOaRQ4sNC/edit?usp=sharing&ouid=105654684266660874542&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative inline-block px-4 py-2 font-semibold group"
                 whileHover={{ scale: 1.1 }}
               >
