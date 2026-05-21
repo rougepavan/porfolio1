@@ -7,14 +7,14 @@ const projects = [
     id: 1,
     title: "AI-Based Image Captioning Data Pipeline",
     description: "Built an end-to-end data pipeline for image ingestion and transformation using Python, TensorFlow, GPT-based models, and SQL. Automated conversion of unstructured data into analytics-ready formats while improving processing efficiency by 30%.",
-    image: "/assets/project1.png",
+    image: "/assets/ai_data_pipeline.png",
     link: "https://github.com/rougepavan/AI-Image-captioning.git"
   },
   {
     id: 2,
     title: "Laptop Sales & Inventory Management System",
     description: "Designed backend APIs and database models for managing inventory, sales, and service records using Node.js, Express.js, and MongoDB. Optimized database queries to improve real-time reporting efficiency by 25%.",
-    image: "/assets/preview.png",
+    image: "/assets/inventory_system.png",
     link: "https://github.com/rougepavan/IP.git"
   }
 ];
@@ -36,9 +36,9 @@ export default function Projects() {
             transition={{ type: "spring", stiffness: 80, damping: 10, delay: index * 0.2 }}
             viewport={{ once: true }}
           >
-            <div className="lg:w-[500px] w-full rounded-2xl overflow-hidden">
+            <div className="lg:w-[500px] h-64 lg:h-80 w-full rounded-2xl overflow-hidden border border-zinc-800 flex items-center justify-center hover:scale-[1.02] transition-transform duration-500 cursor-pointer shadow-xl">
               <img
-                className="w-full h-full hover:scale-105 transition-all duration-500 cursor-pointer object-cover"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 src={project.image}
                 alt={project.title}
               />
