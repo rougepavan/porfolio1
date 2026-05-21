@@ -18,7 +18,7 @@ export default function Home() {
         >
 
           <motion.div
-            className="text-2xl lg:text-5xl flex flex-col mt-8 lg:mt-0 gap-2 lg:gap-5 text-nowrap"
+            className="text-2xl lg:text-5xl flex flex-col mt-8 lg:mt-0 gap-2 lg:gap-5 whitespace-normal lg:whitespace-nowrap"
             initial="hidden"
             animate="visible"
             variants={{
